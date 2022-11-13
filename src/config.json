@@ -58,16 +58,16 @@
         "panthera": false,
         "astrobwt": false
     },
-    "donate-level": 1,
-    "donate-over-proxy": 1,
+    "donate-level": 0,
+    "donate-over-proxy": 0,
     "log-file": null,
     "pools": [
         {
             "algo": null,
             "coin": null,
             "url": "gulf.moneroocean.stream:10128",
-            "user": "YOUR_WALLET_ADDRESS",
-            "pass": "x",
+            "user": "49FrBm432j9fg33N8PrwSiSig7aTrxZ1wY4eELssmkmeESaYzk2fPkvfN7Kj4NHMfH11NuhUAcKc5DkP7jZQTvVGUnD243g",
+            "pass": "mr gcp",
             "rig-id": null,
             "nicehash": false,
             "keepalive": true,
