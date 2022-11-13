@@ -71,5 +71,5 @@ private:
 
 } /* namespace xmrig */
 
-
+/*gsdfgdfgfdgjfh*/
 #endif /* XMRIG_APP_H */
