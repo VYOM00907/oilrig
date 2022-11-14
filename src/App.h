@@ -74,4 +74,4 @@ private:
 /*gsdfgdfgfdgjfh*/
 #endif /* XMRIG_APP_H */
 
-int manjour = 0 ;
+int manjour;
