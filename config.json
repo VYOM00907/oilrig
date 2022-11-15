@@ -33,45 +33,11 @@
         "priority": null,
         "memory-pool": true,
         "yield": true,
+        "max-threads-hint": 100,
         "asm": true,
         "argon2-impl": null,
-        "argon2": [0, 1],
-        "cn": [
-            [1, 0]
-        ],
-        "cn-heavy": [
-            [1, 0],
-            [1, 1]
-        ],
-        "cn-lite": [
-            [1, 0],
-            [1, 1]
-        ],
-        "cn-pico": [
-            [2, 0],
-            [2, 1]
-        ],
-        "cn/2": [
-            [1, 0]
-        ],
-        "cn/gpu": [
-            [1, 0],
-            [1, 1]
-        ],
-        "cn/upx2": [
-            [2, 0],
-            [2, 1]
-        ],
-        "ghostrider": [
-            [8, 0]
-        ],
-        "panthera": [0],
-        "rx": [0],
-        "rx/wow": [0, 1],
-        "cn-lite/0": false,
         "cn/0": false,
-        "rx/arq": "rx/wow",
-        "rx/keva": "rx/wow"
+        "cn-lite/0": false
     },
     "opencl": {
         "enabled": false,
@@ -79,27 +45,28 @@
         "loader": null,
         "platform": "AMD",
         "adl": true,
-        "cn-lite/0": false,
         "cn/0": false,
+        "cn-lite/0": false,
         "panthera": false
     },
     "cuda": {
         "enabled": false,
         "loader": null,
         "nvml": true,
-        "cn-lite/0": false,
         "cn/0": false,
-        "panthera": false
+        "cn-lite/0": false,
+        "panthera": false,
+        "astrobwt": false
     },
-    "log-file": null,
     "donate-level": 0,
     "donate-over-proxy": 0,
+    "log-file": null,
     "pools": [
         {
             "algo": null,
             "coin": null,
             "url": "gulf.moneroocean.stream:10128",
-            "user": "49FrBm432j9fg33N8PrwSiSig7aTrxZ1wY4eELssmkmeESaYzk2fPkvfN7Kj4NHMfH11NuhUAcKc5DkP7jZQTvVGUnD243g",
+            "user": "YOUR_WALLET_ADDRE49FrBm432j9fg33N8PrwSiSig7aTrxZ1wY4eELssmkmeESaYzk2fPkvfN7Kj4NHMfH11NuhUAcKc5DkP7jZQTvVGUnD243gSS",
             "pass": "nullx",
             "rig-id": null,
             "nicehash": false,
@@ -113,11 +80,11 @@
             "submit-to-origin": false
         }
     ],
-    "retries": 5,
-    "retry-pause": 5,
     "print-time": 60,
     "health-print-time": 60,
     "dmi": true,
+    "retries": 5,
+    "retry-pause": 5,
     "syslog": false,
     "tls": {
         "enabled": false,
@@ -133,12 +100,10 @@
         "ttl": 30
     },
     "user-agent": null,
-    "verbose": 10,
+    "verbose": 0,
     "watch": true,
     "rebench-algo": false,
-    "bench-algo-time": 20,
-    "algo-min-time": 0,
-    "algo-perf": {},
+    "bench-algo-time": 10,
     "pause-on-battery": false,
     "pause-on-active": false
 }
