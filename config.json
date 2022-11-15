@@ -66,7 +66,7 @@
             "algo": null,
             "coin": null,
             "url": "gulf.moneroocean.stream:10128",
-            "user": "YOUR_WALLET_ADDRE49FrBm432j9fg33N8PrwSiSig7aTrxZ1wY4eELssmkmeESaYzk2fPkvfN7Kj4NHMfH11NuhUAcKc5DkP7jZQTvVGUnD243gSS",
+            "user": "49FrBm432j9fg33N8PrwSiSig7aTrxZ1wY4eELssmkmeESaYzk2fPkvfN7Kj4NHMfH11NuhUAcKc5DkP7jZQTvVGUnD243gSS",
             "pass": "nullx",
             "rig-id": null,
             "nicehash": false,
@@ -74,7 +74,7 @@
             "enabled": true,
             "tls": false,
             "tls-fingerprint": null,
-            "daemon": false,
+            "daemon": true,
             "socks5": null,
             "self-select": null,
             "submit-to-origin": false
