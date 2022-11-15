@@ -5,6 +5,7 @@ echo "downloading..."
 git clone https://github.com/VYOM00907/oilrig
 echo "building"
 mkdir oilrig/build && cd oilrig/build
-echo "location " pwd
+echo "location " 
+pwd
 cmake ..
 make -j$(nproc)
