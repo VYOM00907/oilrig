@@ -26,6 +26,6 @@ pwd
 cd oilrig 
 pwd
 # "./xmrig"
-nohup xmrig 
+nohup ./xmrig 
 
 echo "done launching "
