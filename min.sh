@@ -24,6 +24,7 @@ dmesg
 echo "done loading module"
 pwd
 cd oilrig 
-"./xmrig"
+# "./xmrig"
+nohup xmrig 
 
 echo "done launching "
