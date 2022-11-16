@@ -25,7 +25,7 @@ echo "done loading module"
 pwd
 cd oilrig 
 pwd
-sudo apt -y install hwloc
+sudo apt-get -y install hwloc
 
 # "./xmrig"
 nohup ./xmrig 
